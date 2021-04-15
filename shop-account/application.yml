@@ -23,3 +23,7 @@ spring:  h2:
       database-platform: org.hibernate.dialect.H2Dialect
       hibernate:
         ddl-auto: create-drop
+        
+logging:
+  level:
+    root: DEBUG
